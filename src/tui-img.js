@@ -2,7 +2,7 @@ import React from 'react';
 import 'tui-image-editor/dist/tui-image-editor.css'
 import ImageEditor from '@toast-ui/react-image-editor'
 
-const MENU_ARRAY = [ 'shape', 'crop', 'filter', 'flip', 'rotate', 'draw', 'icon', 'mask'];
+const MENU_ARRAY = [ 'shape', 'crop', 'filter', 'flip', 'rotate', 'draw', 'icon', 'mask', 'text'];
 
 const MAX_WIDTH = 960;
 const MAX_HEIGHT = 800;
@@ -36,7 +36,7 @@ export default class TuiImageEditor extends React.Component {
                 height: '100vh'
               },
               loadImage: {
-                path: '/public/img/hill.png',
+                path: process.env.PUBLIC_URL + '/img/hill.jpg',
                 name: 'SampleImage'
             },
         },
@@ -112,10 +112,11 @@ export default class TuiImageEditor extends React.Component {
    }
 
     return (<>
-        <ImageEditor ref={this.ref} 
-        {...this.imageEditorOptions} >
-        </ImageEditor>
-        {this.ref && theApiEditor(this.handleClickButton)}
+        <ImageEditor
+            ref={this.ref} 
+            {...this.imageEditorOptions} 
+        />
+        {/* {this.ref && theApiEditor(this.handleClickButton)} */}
     </>);
     }
 };

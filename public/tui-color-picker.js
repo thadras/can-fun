@@ -1,16 +1,3 @@
-HTTP/2 200 
-server: nginx/1.16.1
-content-type: text/javascript
-content-length: 129043
-accept-ranges: bytes
-last-modified: Thu, 09 Jan 2020 02:29:57 GMT
-etag: 77f9b6e843c7d64ea8961cba81461eff
-x-timestamp: 1578536996.88661
-x-all-audit-logging: False
-x-trans-id: txb06fb87568c044c284fce-005fb0512b
-x-openstack-request-id: txb06fb87568c044c284fce-005fb0512b
-date: Sat, 14 Nov 2020 22:00:21 GMT
-
 /*!
  * TOAST UI Color Picker
  * @version 2.2.6

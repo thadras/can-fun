@@ -1,22 +1,3 @@
-HTTP/2 200 
-server: nginx/1.16.1
-content-type: text/css
-content-length: 4182
-accept-ranges: bytes
-last-modified: Thu, 09 Jan 2020 02:29:57 GMT
-etag: 1ad1c413c9ed60c6630d9ee120979448
-x-timestamp: 1578536996.78646
-x-all-audit-logging: False
-x-trans-id: tx56dbb411522c455e9ce65-005faca0e2
-x-openstack-request-id: tx56dbb411522c455e9ce65-005faca0e2
-date: Sat, 14 Nov 2020 21:57:48 GMT
-
-/*!
- * TOAST UI Color Picker
- * @version 2.2.6
- * @author NHN FE Development Team <dl_javascript@nhn.com>
- * @license MIT
- */
 .tui-colorpicker-clearfix {
   zoom: 1;
 }
