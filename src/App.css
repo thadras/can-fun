@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+ul.tui-colorpicker-clearfix{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tui-colorpicker-palette-button {
+  letter-spacing: 1.7em;
+  line-height: 17px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
